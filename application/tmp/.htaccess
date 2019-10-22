@@ -1,0 +1,6 @@
+
+RewriteCond %{THE_REQUEST} ^.+$ [NC]
+RewriteRule .* - [F,L]
+
+order allow,deny
+allow from all

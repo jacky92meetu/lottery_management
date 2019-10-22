@@ -1,0 +1,173 @@
+#Dvalidation_button_overlay{
+	display:none;
+}
+#Dvalidation_mask_overlay{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:transparent;
+	display:none;	
+}
+#Dvalidation_mask_overlay #Dvalidation_mask_background{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000000;	
+}
+#Dvalidation_mask_overlay #Dvalidation_mask_contents{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:transparent;
+}
+
+#Popup_content{	
+	background:#FFFFFF;
+	display:inherit;
+	width:100%;
+	height:100%;
+	padding:0;	
+}
+.Popup_overlay{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000000;
+	display:none;	
+}
+.Popup_container{	
+	/*background:#ffffff;
+	border:7px solid #666666;*/
+	background:transparent;
+	display:none;
+	/*min-width:200px;
+	min-height:100px;*/	
+	overflow:visible;
+}
+.Popup_movable{
+	position:absolute;
+}
+.Popup_overlay_container{
+	position:absolute;
+}
+.Popup_container .title_menu{
+	background:#FFFFFF;
+}
+.Popup_container .Popup_container_title{	
+	padding:0 2px;	
+	height:20px;	
+	overflow:hidden;
+	color:#ffffff;
+	font-weight:bold;
+}
+.Popup_movable .Popup_container_title{
+	cursor:move;
+}
+.Popup_container .Popup_container_close{
+	background:url('/application/globals/images/system/ico_close4.png') no-repeat 50%;
+	height:18px;
+	width:18px;
+	padding:0 2px;
+	overflow:hidden;
+	cursor:hand;
+	cursor:pointer;
+}
+.Popup_container .tl{
+	width:15px;height:15px;background: url(/application/globals/images/system/table/border_1/tl.png) no-repeat 0 0 transparent;
+}
+.Popup_container .tc{
+	height:15px;background: url(/application/globals/images/system/table/border_1/tc.png) repeat-x 0 0 transparent;
+}
+.Popup_container .tr{
+	width:15px;height:15px;background: url(/application/globals/images/system/table/border_1/tr.png) no-repeat 100% 0 transparent;
+}
+.Popup_container .cl{
+	width:15px;height:100%;background: url(/application/globals/images/system/table/border_1/cl.png) repeat-y 0 0 transparent;
+}
+.Popup_container .cl div{
+	width:15px;height:100%;background:transparent;
+}
+.Popup_container .cr{
+	width:15px;height:100%;background: url(/application/globals/images/system/table/border_1/cr.png) repeat-y 100% 0 transparent;
+}
+.Popup_container .cr div{
+	width:15px;height:100%;background:transparent;
+}
+.Popup_container .bl{
+	width:15px;height:15px;background: url(/application/globals/images/system/table/border_1/bl.png) no-repeat 0 100% transparent;
+}
+.Popup_container .bc{
+	height:15px;background: url(/application/globals/images/system/table/border_1/bc.png) repeat-x 0 100% transparent;
+}
+.Popup_container .br{
+	width:15px;height:15px;background: url(/application/globals/images/system/table/border_1/br.png) no-repeat 100% 100% transparent;
+}
+.Popup_loading{
+	width:100%;
+	height:100%;
+	display:none;	
+}
+.Popup_loading table{
+	width:100%;
+	height:100%;
+}
+.Popup_loading table tr td{
+	text-align:center;
+	vertical-align:middle;
+}
+
+.Popup_sidebar{
+	position:fixed;
+	background:#CCCCCC;
+	top:0;
+	left:0;
+	height:100%;	
+	display:block;
+}
+.Popup_sidebar #Popup_sidebar_container{
+	background:#CCCCCC;
+	float:left;
+	height:100%;
+	min-width: 200px;
+	overflow:auto;
+}
+.Popup_sidebar #Popup_line{
+	background:#3a6611;	
+	float:left;
+	height:100%;
+	width:30px;
+}
+.Popup_sidebar #Popup_sidebar_menu{
+	height:80px;
+	border-bottom:5px solid #3a6611;
+}
+.Popup_sidebar .Popup_sidebutton{
+	background:#666666;	
+	border:1px solid #ffffff;
+	padding:2px;
+	margin:auto;
+	text-align:left;
+	width:200px;
+	height:20px;
+	color:#ffffff;
+	overflow:hidden;
+	cursor:hand;
+	cursor:pointer;
+}
+.Popup_sidebar .Popup_sidebutton:hover{
+	background:#e3fdac;
+	color:#880000;
+	font-weight: bold;
+}
+
+.javascript{
+	display:none;
+}

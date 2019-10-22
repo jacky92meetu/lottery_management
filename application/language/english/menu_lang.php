@@ -1,0 +1,27 @@
+<?php
+$lang['desc_block'] = "Block the item?";
+$lang['desc_publish'] = "Publish the item?";
+$lang['desc_edit'] = "Edit the item";
+$lang['desc_image_view'] = "View the image";
+$lang['desc_add'] = "Create New";
+$lang['desc_album_add'] = "Create New Album";
+$lang['desc_image_add'] = "Upload New Image";
+$lang['desc_user_group'] = "User Group";
+$lang['desc_user_manager'] = "User Manager";
+$lang['desc_user_group_add'] = "Add New User Group";
+$lang['desc_user_add'] = "Add New User";
+$lang['desc_back'] = "Back";
+$lang['desc_upload_stop'] = "Stop uploading...";
+$lang['desc_upload_set_name'] = "Edit name & description";
+$lang['desc_delete'] = "Delete";
+$lang['desc_add_phone'] = "Add new phone";
+$lang['desc_add_phone2'] = "New subscription by points";
+$lang['desc_setting'] = "System Setting";
+$lang['desc_change_password'] = "Change User login password";
+$lang['desc_phone_manager'] = "Phone Manager";
+$lang['desc_points_view'] = "User Points View";
+$lang['desc_points_details'] = "User Points Summary";
+$lang['desc_list'] = "List";
+$lang['desc_view'] = "View lottery result";
+$lang['desc_sms_send'] = "Send SMS lottery result to group";
+$lang['desc_refund'] = "Transaction refund";

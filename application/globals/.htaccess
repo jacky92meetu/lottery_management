@@ -1,0 +1,8 @@
+#RewriteCond %{THE_REQUEST} ^.+$ [NC]
+#RewriteRule .* - [F,L]
+Deny from all
+
+<Files ~ "\.(gif|jpe?g|png|css|js|ico)$">
+order deny,allow
+allow from all
+</Files>

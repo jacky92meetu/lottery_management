@@ -1,0 +1,49 @@
+#tool_tips{
+	width:200px;
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	padding:5px;
+	border:1px #666666 solid;
+	background-color: #f4f2f2;	
+}
+
+.control_panel a{
+	text-decoration: none;
+	color:#000000;
+}
+.control_panel a div{		
+	border:1px #DDDDDD solid;	
+	font:normal 12px arial;
+	background: no-repeat 50% 5px transparent;
+	padding:60px 5px 5px;
+	width:100px;
+	height:40px;
+	text-align:center;		
+}
+.control_panel a div.hover{		
+	border:1px #00dd01 solid;		
+}
+
+.response_message{
+	padding:5px 0;
+}
+
+.message_warning{
+	border:1px #f1f600 solid;
+	background: url(/application/globals/images/system/ico/ico_warning.jpg) no-repeat 5px 50% #fbfced;	
+	padding:5px 5px 5px 25px;
+}
+
+.message_error{
+	border:1px #ff0000 solid;	
+	background: url(/application/globals/images/system/ico/ico_error.jpg) no-repeat 5px 50% #fceded;
+	padding:5px 5px 5px 25px;
+}
+
+.message_notice{
+	border:1px #00dd01 solid;
+	background: url(/application/globals/images/system/ico/ico_notification.jpg) no-repeat 5px 50% #edfced;	
+	padding:5px 5px 5px 25px;
+}

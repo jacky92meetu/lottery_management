@@ -1,0 +1,42 @@
+/*TEMPLATES MENU*/
+div.template-menu{
+	float:left;
+	margin:0;
+	padding:0;	
+}
+
+div.template-menu div.main-menu div.list{	
+	float:left;	
+}
+
+div.template-menu a{	
+	text-decoration: none;
+	color:black;	
+}
+
+div.template-menu div.list{
+	padding:5px;
+	border-top:1px solid transparent;
+	border-bottom:1px solid transparent;
+}
+
+div.template-menu div.list:hover{
+	background:#e3fdac;
+	border-top:1px solid #6d8835;
+	border-bottom:1px solid #6d8835;
+}
+
+div.template-menu div.pic{
+	float:left;	
+	width:35px;	
+}
+
+div.template-menu div.sub1{	
+	background: url(/application/globals/images/system/ico_close.jpg) no-repeat right center;
+	padding-right:35px;	
+}
+
+div.template-menu div.sub2{
+	background: url(/application/globals/images/system/ico_close2.jpg) no-repeat right center;
+	padding-right:35px;	
+}

@@ -1,0 +1,3 @@
+#RewriteCond %{THE_REQUEST} ^.+$ [NC]
+#RewriteRule .* - [F,L]
+Deny from all
